@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contact-form-wrapper{
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*height: 100vh;*/
+	padding: 100px 0;
+}
+.contact-form{
+	max-width: 700px;
+	background: #fff;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+.contact-form h2{
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.single-form{
+	margin-bottom: 20px;
+}
+.single-form:nth-child(1){
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+}
+.single-form:nth-child(2){
+	width: 48%;
+	margin-left: 2%;
+	float: left;
+}
+.single-form label{
+	display: block;
+	margin-bottom: 10px;
+}
+.single-form input, .single-form textarea{
+	width: 100%;
+	padding: 12px;
+	border-radius: 4px;
+	border: 1px solid #333;
+}
+.single-form textarea{
+	min-height: 150px;
+}
+.btn-submit{
+	padding: 12px 30px;
+	color: #fff;
+	border-radius: 4px;
+	border: 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.btn-submit:hover{
+	background: #1FA2FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #A6FFCB, #12D8FA, #1FA2FF);
+}
+
+@media(max-width: 767px){
+	.single-form:nth-child(1){
+		width: 100%;
+		margin-right: 0;
+	}
+	.single-form:nth-child(2){
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+
+/*******
+
+Thanks for watching. If you like this video please subscribe my channel :);
+
+*****/
+
+
+
